@@ -34,10 +34,10 @@ final class RMTabBarViewController: UITabBarController {
                                        image: UIImage(systemName: "person"),
                                        tag: 1)
         nav2.tabBarItem = UITabBarItem(title: "Locations",
-                                       image: UIImage(systemName: "globe"),
+                                       image: UIImage(systemName: "house.fill"),
                                        tag: 2)
         nav3.tabBarItem = UITabBarItem(title: "Episodes",
-                                       image: UIImage(systemName: "tv"),
+                                       image: UIImage(systemName: "ellipsis.message.fill"),
                                        tag: 3)
         nav4.tabBarItem = UITabBarItem(title: "Settings",
                                        image: UIImage(systemName: "gear"),
