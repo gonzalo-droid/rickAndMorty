@@ -23,6 +23,10 @@
 		C1B151282A4BABB50011620D /* RMLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B151272A4BABB50011620D /* RMLocationViewController.swift */; };
 		C1B1512A2A4BABCA0011620D /* RMEpisodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B151292A4BABCA0011620D /* RMEpisodeViewController.swift */; };
 		C1B1512C2A4BABE00011620D /* RMSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B1512B2A4BABE00011620D /* RMSettingsViewController.swift */; };
+		C1B1512E2A4BC11F0011620D /* RMService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B1512D2A4BC11F0011620D /* RMService.swift */; };
+		C1B151302A4BC1680011620D /* RMAPICacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B1512F2A4BC1680011620D /* RMAPICacheManager.swift */; };
+		C1B151322A4BC19C0011620D /* RMEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B151312A4BC19C0011620D /* RMEndpoint.swift */; };
+		C1B151342A4BC1B80011620D /* RMRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B151332A4BC1B80011620D /* RMRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +48,10 @@
 		C1B151272A4BABB50011620D /* RMLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMLocationViewController.swift; sourceTree = "<group>"; };
 		C1B151292A4BABCA0011620D /* RMEpisodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMEpisodeViewController.swift; sourceTree = "<group>"; };
 		C1B1512B2A4BABE00011620D /* RMSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMSettingsViewController.swift; sourceTree = "<group>"; };
+		C1B1512D2A4BC11F0011620D /* RMService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMService.swift; sourceTree = "<group>"; };
+		C1B1512F2A4BC1680011620D /* RMAPICacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMAPICacheManager.swift; sourceTree = "<group>"; };
+		C1B151312A4BC19C0011620D /* RMEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMEndpoint.swift; sourceTree = "<group>"; };
+		C1B151332A4BC1B80011620D /* RMRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +130,7 @@
 		C1B151102A4B9CA20011620D /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				C1B1512F2A4BC1680011620D /* RMAPICacheManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -129,6 +138,9 @@
 		C1B151112A4B9CAD0011620D /* APIClient */ = {
 			isa = PBXGroup;
 			children = (
+				C1B1512D2A4BC11F0011620D /* RMService.swift */,
+				C1B151312A4BC19C0011620D /* RMEndpoint.swift */,
+				C1B151332A4BC1B80011620D /* RMRequest.swift */,
 			);
 			path = APIClient;
 			sourceTree = "<group>";
@@ -248,14 +260,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1B151282A4BABB50011620D /* RMLocationViewController.swift in Sources */,
+				C1B151322A4BC19C0011620D /* RMEndpoint.swift in Sources */,
 				C1B1511A2A4BA9A50011620D /* RMEpisode.swift in Sources */,
 				C1B151222A4BAA470011620D /* RMSingleLocation.swift in Sources */,
 				C1B150FD2A4B970E0011620D /* RMTabBarViewController.swift in Sources */,
 				C1B1511E2A4BA9D90011620D /* RMCharacterStatus.swift in Sources */,
+				C1B1512E2A4BC11F0011620D /* RMService.swift in Sources */,
 				C1B1512A2A4BABCA0011620D /* RMEpisodeViewController.swift in Sources */,
 				C1B150F92A4B970E0011620D /* AppDelegate.swift in Sources */,
 				C1B1511C2A4BA9C30011620D /* RMCharacterGender.swift in Sources */,
+				C1B151342A4BC1B80011620D /* RMRequest.swift in Sources */,
 				C1B150FB2A4B970E0011620D /* SceneDelegate.swift in Sources */,
+				C1B151302A4BC1680011620D /* RMAPICacheManager.swift in Sources */,
 				C1B151162A4B9DF50011620D /* RMLocation.swift in Sources */,
 				C1B151252A4BAB690011620D /* RMCharacterViewController.swift in Sources */,
 				C1B151202A4BAA310011620D /* RMOrigin.swift in Sources */,
